@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 244, 206);
+    color: black;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner {
+    font-size: 3rem;
+}
+
+#clock {
+    font-size: 2.1rem;
+    background-color: rgb(255, 199, 95);
+    padding: 20px 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
